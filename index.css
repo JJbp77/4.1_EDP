@@ -1,0 +1,65 @@
+Jeremy Dukes
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: darkblue;
+    
+}
+
+h1 {
+    text-align: center;
+    color: white;
+   font-size: 75px;
+
+}
+
+.cptJack {
+    width: 935px;
+    height: 795px;
+    margin-top: 50px;
+    margin-left: 350px;
+    place-items: center;
+}
+
+.myImage {
+    position: relative;
+    top: 120px;
+    left: 459px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+}
+
+.myImage {
+    animation-name: hor-movement, ver-movement;
+    animation-duration: 21s, 25s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+.startButn {
+    margin-left: 800px;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+.stopButn {
+    margin-left: 50px;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+.startButn:hover {
+    background: skyblue;
+    scale: 1.03em;
+}
+
+.stopButn:hover {
+    background: skyblue;
+    scale: 1.03em;
+}
